@@ -154,7 +154,8 @@ main {
 }
 .card-1,
 .card-2,
-.card-3 {
+.card-3,
+.next-card {
   padding: 40px;
   border-radius: 16px;
 }
@@ -177,4 +178,14 @@ main {
 }
 .card > a {
   font-weight: 700;
+}
+/* nex target  */
+.next-target .target-card-container {
+  flex-direction: column;
+}
+.next-card {
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  display: flex;
+  align-items: center;
+  gap: 24px;
 }
