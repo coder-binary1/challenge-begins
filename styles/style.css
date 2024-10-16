@@ -66,7 +66,8 @@ nav > a {
 }
 .hero {
   background-image: url(../assets/Hero-bg.png);
-  background-size: cover;
+  background-size: contain;
+  background-position: center;
 }
 .hero-content {
   width: 998px;
@@ -222,4 +223,22 @@ p {
   border-radius: 8px;
   font-family: "Azeret Mono", monospace;
   font-size: 16px;
+}
+
+/* footer style  */
+#footer {
+  padding: 32px 150px;
+  background-color: rgba(13, 19, 33, 0.03);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+.soical-icon {
+  display: flex;
+  align-items: center;
+  gap: 24px;
 }
