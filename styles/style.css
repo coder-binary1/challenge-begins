@@ -50,6 +50,8 @@
 .section-gap {
   margin-top: 70px;
 }
+.card-title {
+}
 /* header style */
 nav {
   padding: 36px 150px;
@@ -143,4 +145,36 @@ main {
   width: 100%;
   height: 750px;
   border-radius: 16px;
+}
+
+/* my current target */
+.target-card-container {
+  display: flex;
+  gap: 24px;
+}
+.card-1,
+.card-2,
+.card-3 {
+  padding: 40px;
+  border-radius: 16px;
+}
+.card-1 {
+  background: rgba(255, 76, 30, 0.05);
+}
+.card-2 {
+  background: rgba(0, 76, 232, 0.05);
+}
+.card-3 {
+  background: rgba(255, 223, 0, 0.05);
+}
+.card-title {
+  margin-top: 24px;
+  font-size: 24px;
+  font-weight: 800;
+}
+.card-desc {
+  margin: 8px 0 24px 0;
+}
+.card > a {
+  font-weight: 700;
 }
